@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Young+Serif&display=swap');
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Young Serif', serif;
+    text-decoration: none;
+    
+}
+
+.container{
+    background-color: blue;
+    height: 40vh;
+}
+
+.first-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+
+
+.second-list {
+    margin-top: 6rem;
+    color: white;
+
+}
+
+.first-h1 {
+    margin-bottom: 0.75rem;
+}
+
+.container-1 {
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.user-list-info {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.text {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.user-info {
+    margin-bottom: 2rem;
+    
+    
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+   
+    
+    
+    
+  }
+  
+  .user-stack,
+  .user-info {
+    display: inline-block;
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  
+
+.image-size {
+    width: 20rem;
+    height: 10rem;
+    
+}
+
+.user-title {
+    width: 20rem;
+}
+
+.useres-list {
+    list-style: none;
+    margin-left: 2rem;
+   
+}
+
+.button {
+    background-color: red;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    
+}
+
+.user-avatar {
+    background-color: aliceblue;
+    margin-bottom: 2rem;
+    margin-right: 4rem;
+}
+
+.image-logo {
+    margin-left: 2rem;
+}
+
+.user-stacks {
+    border: 1px solid black;
+    padding: 0.5rem ;
+    border-radius: 0.5rem;
+}
