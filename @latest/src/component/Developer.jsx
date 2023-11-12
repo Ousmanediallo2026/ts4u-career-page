@@ -4,7 +4,7 @@ import jobsData from "../Dataset/jobsData";
 import { Link } from "react-router-dom";
 const Developer = () => {
   const handleClick = () => {
-    // implementation details
+
   };
   return (
     <div>
